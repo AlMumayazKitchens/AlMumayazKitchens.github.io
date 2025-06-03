@@ -591,6 +591,23 @@ section {
     background-color: hsl(var(--surface));
 }
 
+.form-group.error input,
+.form-group.error textarea,
+.form-group.error select {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: none;
+}
+
+.form-group.error .error-message {
+    display: block;
+}
+
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
