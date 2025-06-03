@@ -2,7 +2,7 @@
 window.translations = {
     en: {
         // Navigation
-        company_name: "Premium Kitchens",
+        company_name: "Al Mumayaz Kitchens",
         nav_home: "Home",
         nav_about: "About",
         nav_work: "Our Work",
@@ -86,7 +86,7 @@ window.translations = {
     
     ar: {
         // Navigation
-        company_name: "المطابخ الفاخرة",
+        company_name: "المميز للمطابخ",
         nav_home: "الرئيسية",
         nav_about: "من نحن",
         nav_work: "أعمالنا",

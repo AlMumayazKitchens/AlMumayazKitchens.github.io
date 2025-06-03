@@ -60,19 +60,27 @@ class KitchenWebsite {
                     const src = img.getAttribute('data-src');
                     
                     if (src) {
-                        img.src = src;
-                        img.classList.add('loaded');
-                        img.removeAttribute('data-src');
+                        // Preload the image to prevent flickering
+                        const imageLoader = new Image();
+                        imageLoader.onload = () => {
+                            img.src = src;
+                            img.classList.remove('loading');
+                            img.classList.add('loaded');
+                            img.removeAttribute('data-src');
+                        };
+                        imageLoader.src = src;
                         observer.unobserve(img);
                     }
                 }
             });
         }, {
             threshold: 0.1,
-            rootMargin: '50px'
+            rootMargin: '100px'
         });
 
         lazyImages.forEach(img => {
+            // Set a placeholder background while loading
+            img.style.backgroundColor = 'hsl(var(--border))';
             img.classList.add('loading');
             imageObserver.observe(img);
         });
