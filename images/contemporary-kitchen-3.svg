@@ -1,0 +1,103 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="modernCabinet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="quartz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FAFAFA"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="470" width="800" height="130" fill="#E5E7EB"/>
+  
+  <!-- Feature Wall -->
+  <rect x="0" y="0" width="150" height="470" fill="url(#accent)"/>
+  
+  <!-- Floating Shelves -->
+  <rect x="20" y="120" width="100" height="8" fill="#FFFFFF"/>
+  <rect x="20" y="180" width="100" height="8" fill="#FFFFFF"/>
+  <rect x="20" y="240" width="100" height="8" fill="#FFFFFF"/>
+  
+  <!-- Upper Cabinets -->
+  <rect x="170" y="90" width="160" height="90" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="350" y="90" width="160" height="90" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="530" y="90" width="160" height="90" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Handle-less Design -->
+  <rect x="170" y="175" width="160" height="5" fill="#D1D5DB"/>
+  <rect x="350" y="175" width="160" height="5" fill="#D1D5DB"/>
+  <rect x="530" y="175" width="160" height="5" fill="#D1D5DB"/>
+  
+  <!-- Countertop -->
+  <rect x="160" y="280" width="550" height="30" fill="url(#quartz)"/>
+  
+  <!-- Lower Cabinets -->
+  <rect x="170" y="310" width="160" height="130" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="350" y="310" width="160" height="130" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="530" y="310" width="160" height="130" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Lower Handle-less -->
+  <rect x="170" y="305" width="160" height="5" fill="#D1D5DB"/>
+  <rect x="350" y="305" width="160" height="5" fill="#D1D5DB"/>
+  <rect x="530" y="305" width="160" height="5" fill="#D1D5DB"/>
+  
+  <!-- Kitchen Island -->
+  <rect x="300" y="380" width="200" height="60" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="290" y="370" width="220" height="20" fill="url(#quartz)"/>
+  <rect x="300" y="375" width="200" height="5" fill="#D1D5DB"/>
+  
+  <!-- Appliances -->
+  <!-- Integrated Refrigerator -->
+  <rect x="710" y="90" width="80" height="350" fill="url(#modernCabinet)" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="715" y="95" width="70" height="170" fill="#F9FAFB"/>
+  <rect x="715" y="275" width="70" height="160" fill="#F9FAFB"/>
+  <rect x="740" y="180" width="20" height="5" fill="#9CA3AF"/>
+  <rect x="740" y="350" width="20" height="5" fill="#9CA3AF"/>
+  
+  <!-- Induction Cooktop -->
+  <rect x="350" y="285" width="160" height="25" fill="#1F2937"/>
+  <circle cx="380" cy="297" r="8" fill="#374151"/>
+  <circle cx="410" cy="297" r="8" fill="#374151"/>
+  <circle cx="440" cy="297" r="8" fill="#374151"/>
+  <circle cx="470" cy="297" r="8" fill="#374151"/>
+  
+  <!-- Range Hood -->
+  <rect x="330" y="180" width="200" height="50" fill="#9CA3AF"/>
+  <rect x="340" y="190" width="180" height="30" fill="#6B7280"/>
+  
+  <!-- Pendant Lights -->
+  <line x1="350" y1="20" x2="350" y2="50" stroke="#1F2937" stroke-width="1"/>
+  <circle cx="350" cy="60" r="12" fill="#1F2937"/>
+  
+  <line x1="450" y1="20" x2="450" y2="50" stroke="#1F2937" stroke-width="1"/>
+  <circle cx="450" cy="60" r="12" fill="#1F2937"/>
+  
+  <!-- Backsplash -->
+  <rect x="170" y="180" width="520" height="100" fill="#F3F4F6"/>
+  
+  <!-- LED Strip -->
+  <rect x="170" y="275" width="520" height="5" fill="#FEF3C7" opacity="0.8"/>
+  
+  <!-- Window -->
+  <rect x="530" y="100" width="120" height="100" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="590" y1="100" x2="590" y2="200" stroke="#93C5FD" stroke-width="1"/>
+  <line x1="530" y1="150" x2="650" y2="150" stroke="#93C5FD" stroke-width="1"/>
+  
+  <!-- Minimalist Decor -->
+  <rect x="30" y="140" width="20" height="30" fill="#065F46"/>
+  <circle cx="40" cy="125" r="8" fill="#10B981"/>
+  
+  <rect x="70" y="200" width="15" height="25" fill="#7C2D12"/>
+  <rect x="75" y="195" width="5" height="5" fill="#DC2626"/>
+  
+</svg>

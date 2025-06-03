@@ -1,0 +1,111 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luxuryCabinet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2F4F4F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#708090;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="marbleCounter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F8FF;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#E6E6FA;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#F0F8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="luxuryWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFAF0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5DC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#luxuryWall)"/>
+  
+  <!-- Floor (Marble) -->
+  <rect x="0" y="480" width="800" height="120" fill="#F0F0F0"/>
+  <path d="M0 480 Q200 470 400 480 T800 480 L800 600 L0 600 Z" fill="#E8E8E8"/>
+  
+  <!-- Kitchen Island -->
+  <rect x="250" y="350" width="300" height="80" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="240" y="340" width="320" height="20" fill="url(#marbleCounter)"/>
+  
+  <!-- Island Bar Stools -->
+  <rect x="200" y="380" width="15" height="60" fill="#8B4513"/>
+  <rect x="585" y="380" width="15" height="60" fill="#8B4513"/>
+  <circle cx="207" cy="375" r="12" fill="#654321"/>
+  <circle cx="593" cy="375" r="12" fill="#654321"/>
+  
+  <!-- Upper Cabinets -->
+  <rect x="50" y="80" width="180" height="100" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="250" y="80" width="180" height="100" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="470" y="80" width="180" height="100" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  
+  <!-- Modern Cabinet Handles -->
+  <rect x="210" y="125" width="15" height="4" fill="#FFD700"/>
+  <rect x="410" y="125" width="15" height="4" fill="#FFD700"/>
+  <rect x="630" y="125" width="15" height="4" fill="#FFD700"/>
+  
+  <!-- Countertop -->
+  <rect x="40" y="280" width="650" height="25" fill="url(#marbleCounter)"/>
+  
+  <!-- Lower Cabinets -->
+  <rect x="50" y="305" width="180" height="140" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="250" y="305" width="180" height="140" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  <rect x="470" y="305" width="180" height="140" fill="url(#luxuryCabinet)" stroke="#1C1C1C" stroke-width="2"/>
+  
+  <!-- Lower Cabinet Handles -->
+  <rect x="210" y="370" width="15" height="4" fill="#FFD700"/>
+  <rect x="410" y="370" width="15" height="4" fill="#FFD700"/>
+  <rect x="630" y="370" width="15" height="4" fill="#FFD700"/>
+  
+  <!-- Premium Appliances -->
+  <!-- Built-in Refrigerator -->
+  <rect x="670" y="100" width="120" height="345" fill="#E6E6FA" stroke="#B0B0B0" stroke-width="2"/>
+  <rect x="680" y="110" width="100" height="160" fill="#F8F8FF"/>
+  <rect x="680" y="280" width="100" height="155" fill="#F8F8FF"/>
+  <rect x="735" y="190" width="10" height="20" fill="#C0C0C0"/>
+  <rect x="735" y="350" width="10" height="20" fill="#C0C0C0"/>
+  
+  <!-- Gas Range -->
+  <rect x="250" y="285" width="180" height="20" fill="#2C2C2C"/>
+  <circle cx="280" cy="295" r="6" fill="#4169E1"/>
+  <circle cx="310" cy="295" r="6" fill="#4169E1"/>
+  <circle cx="340" cy="295" r="6" fill="#4169E1"/>
+  <circle cx="370" cy="295" r="6" fill="#4169E1"/>
+  <circle cx="400" cy="295" r="6" fill="#4169E1"/>
+  
+  <!-- Range Hood -->
+  <rect x="230" y="180" width="220" height="70" fill="#C0C0C0"/>
+  <rect x="240" y="190" width="200" height="50" fill="#A9A9A9"/>
+  <circle cx="340" cy="215" r="25" fill="#808080"/>
+  
+  <!-- Pendant Lights -->
+  <line x1="300" y1="30" x2="300" y2="60" stroke="#FFD700" stroke-width="2"/>
+  <ellipse cx="300" cy="70" rx="20" ry="15" fill="#FFD700" opacity="0.9"/>
+  
+  <line x1="500" y1="30" x2="500" y2="60" stroke="#FFD700" stroke-width="2"/>
+  <ellipse cx="500" cy="70" rx="20" ry="15" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Backsplash (Subway Tiles) -->
+  <rect x="50" y="180" width="600" height="100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <g stroke="#D3D3D3" stroke-width="0.5">
+    <line x1="100" y1="180" x2="100" y2="280"/>
+    <line x1="150" y1="180" x2="150" y2="280"/>
+    <line x1="200" y1="180" x2="200" y2="280"/>
+    <line x1="300" y1="180" x2="300" y2="280"/>
+    <line x1="400" y1="180" x2="400" y2="280"/>
+    <line x1="500" y1="180" x2="500" y2="280"/>
+    <line x1="600" y1="180" x2="600" y2="280"/>
+    <line x1="50" y1="205" x2="650" y2="205"/>
+    <line x1="50" y1="230" x2="650" y2="230"/>
+    <line x1="50" y1="255" x2="650" y2="255"/>
+  </g>
+  
+  <!-- Window -->
+  <rect x="470" y="100" width="150" height="120" fill="#E6F3FF" stroke="#B0C4DE" stroke-width="3"/>
+  <line x1="545" y1="100" x2="545" y2="220" stroke="#B0C4DE" stroke-width="2"/>
+  <line x1="470" y1="160" x2="620" y2="160" stroke="#B0C4DE" stroke-width="2"/>
+  
+  <!-- Decorative Elements -->
+  <rect x="520" y="200" width="50" height="40" fill="#8FBC8F"/>
+  <circle cx="545" cy="220" r="15" fill="#228B22"/>
+  
+</svg>

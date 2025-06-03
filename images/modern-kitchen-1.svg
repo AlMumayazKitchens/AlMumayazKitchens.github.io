@@ -1,0 +1,86 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cabinetGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="counterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C2C2C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#404040;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#wallGradient)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#D2B48C"/>
+  
+  <!-- Upper Cabinets -->
+  <rect x="50" y="100" width="150" height="80" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="220" y="100" width="150" height="80" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="390" y="100" width="150" height="80" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="560" y="100" width="150" height="80" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Cabinet Handles -->
+  <circle cx="180" cy="140" r="3" fill="#C0C0C0"/>
+  <circle cx="350" cy="140" r="3" fill="#C0C0C0"/>
+  <circle cx="520" cy="140" r="3" fill="#C0C0C0"/>
+  <circle cx="690" cy="140" r="3" fill="#C0C0C0"/>
+  
+  <!-- Countertop -->
+  <rect x="40" y="280" width="680" height="40" fill="url(#counterGradient)"/>
+  
+  <!-- Lower Cabinets -->
+  <rect x="50" y="320" width="150" height="120" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="220" y="320" width="150" height="120" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="390" y="320" width="150" height="120" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="560" y="320" width="150" height="120" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Lower Cabinet Handles -->
+  <circle cx="180" cy="380" r="3" fill="#C0C0C0"/>
+  <circle cx="350" cy="380" r="3" fill="#C0C0C0"/>
+  <circle cx="520" cy="380" r="3" fill="#C0C0C0"/>
+  <circle cx="690" cy="380" r="3" fill="#C0C0C0"/>
+  
+  <!-- Kitchen Island -->
+  <rect x="300" y="350" width="200" height="60" fill="url(#cabinetGradient)" stroke="#654321" stroke-width="2"/>
+  <rect x="290" y="340" width="220" height="20" fill="url(#counterGradient)"/>
+  
+  <!-- Appliances -->
+  <!-- Refrigerator -->
+  <rect x="720" y="200" width="70" height="180" fill="#E6E6FA" stroke="#C0C0C0" stroke-width="2"/>
+  <rect x="730" y="210" width="50" height="80" fill="#F0F8FF"/>
+  <rect x="730" y="300" width="50" height="70" fill="#F0F8FF"/>
+  <circle cx="770" cy="250" r="2" fill="#C0C0C0"/>
+  <circle cx="770" cy="335" r="2" fill="#C0C0C0"/>
+  
+  <!-- Stove -->
+  <rect x="220" y="290" width="150" height="30" fill="#2C2C2C"/>
+  <circle cx="250" cy="305" r="8" fill="#1C1C1C"/>
+  <circle cx="280" cy="305" r="8" fill="#1C1C1C"/>
+  <circle cx="310" cy="305" r="8" fill="#1C1C1C"/>
+  <circle cx="340" cy="305" r="8" fill="#1C1C1C"/>
+  
+  <!-- Range Hood -->
+  <rect x="200" y="180" width="190" height="60" fill="#C0C0C0"/>
+  <rect x="210" y="190" width="170" height="40" fill="#A0A0A0"/>
+  
+  <!-- Lighting -->
+  <circle cx="400" cy="50" r="15" fill="#FFD700" opacity="0.8"/>
+  <circle cx="200" cy="50" r="15" fill="#FFD700" opacity="0.8"/>
+  <circle cx="600" cy="50" r="15" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Backsplash -->
+  <rect x="50" y="180" width="660" height="100" fill="#F8F8FF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Decorative Elements -->
+  <rect x="400" y="200" width="2" height="80" fill="#E0E0E0"/>
+  <rect x="250" y="200" width="2" height="80" fill="#E0E0E0"/>
+  <rect x="550" y="200" width="2" height="80" fill="#E0E0E0"/>
+  
+</svg>
