@@ -154,18 +154,89 @@ class KitchenWebsite {
         });
     }
 
-    handleFormSubmission(form) {
+    async handleFormSubmission(form) {
+        // Clear previous errors
+        this.clearFormErrors(form);
+        
+        // Validate form
         const formData = new FormData(form);
         const data = Object.fromEntries(formData);
         
-        // Simulate form submission (since no backend)
-        this.showFormMessage('success', this.getTranslation('form_success') || 'Thank you! Your message has been sent.');
-        form.reset();
+        let hasErrors = false;
         
-        // Remove floating label classes
-        form.querySelectorAll('.has-value').forEach(input => {
-            input.classList.remove('has-value');
-        });
+        // Name validation
+        if (!data.name.trim()) {
+            this.showFieldError(form, 'name');
+            hasErrors = true;
+        }
+        
+        // Email validation
+        if (!data.email.trim() || !this.isValidEmail(data.email)) {
+            this.showFieldError(form, 'email');
+            hasErrors = true;
+        }
+        
+        // Phone validation
+        if (!data.phone.trim()) {
+            this.showFieldError(form, 'phone');
+            hasErrors = true;
+        }
+        
+        // Service validation
+        if (!data.service) {
+            this.showFieldError(form, 'service');
+            hasErrors = true;
+        }
+        
+        // Message validation
+        if (!data.message.trim()) {
+            this.showFieldError(form, 'message');
+            hasErrors = true;
+        }
+        
+        if (hasErrors) {
+            return;
+        }
+        
+        // Show loading state
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
+        
+        try {
+            const response = await fetch('/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                this.showFormMessage('success', result.message);
+                form.reset();
+                
+                // Remove floating label classes
+                form.querySelectorAll('.has-value').forEach(input => {
+                    input.classList.remove('has-value');
+                });
+                
+                // Analytics tracking
+                Analytics.trackContactForm();
+            } else {
+                this.showFormMessage('error', result.message);
+            }
+        } catch (error) {
+            console.error('Error sending form:', error);
+            this.showFormMessage('error', 'Failed to send message. Please try again later.');
+        } finally {
+            // Reset button
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }
     }
 
     showFormMessage(type, message) {
@@ -192,6 +263,25 @@ class KitchenWebsite {
         setTimeout(() => {
             messageDiv.remove();
         }, 5000);
+    }
+
+    clearFormErrors(form) {
+        const errorGroups = form.querySelectorAll('.form-group.error');
+        errorGroups.forEach(group => {
+            group.classList.remove('error');
+        });
+    }
+    
+    showFieldError(form, fieldName) {
+        const field = form.querySelector(`[name="${fieldName}"]`);
+        if (field) {
+            field.closest('.form-group').classList.add('error');
+        }
+    }
+    
+    isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
     }
 
     setupLanguageSwitcher() {

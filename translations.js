@@ -60,7 +60,7 @@ window.translations = {
         contact_phone_title: "Phone",
         contact_email_title: "Email",
         contact_hours_title: "Business Hours",
-        contact_hours: "Mon-Fri: 8AM-6PM | Sat: 9AM-4PM",
+        contact_hours: "All Week: 9AM-1PM | 5PM-9PM",
         
         // Contact Form
         form_name: "Your Name",
@@ -144,7 +144,7 @@ window.translations = {
         contact_phone_title: "الهاتف",
         contact_email_title: "البريد الإلكتروني",
         contact_hours_title: "ساعات العمل",
-        contact_hours: "الاثنين-الجمعة: 8ص-6م | السبت: 9ص-4م",
+        contact_hours: "جميع أيام الأسبوع: 9ص-1م | 5م-9م",
         
         // Contact Form
         form_name: "اسمك",
