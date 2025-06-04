@@ -33,7 +33,7 @@ window.translations = {
         gallery_bathroom_vanity: "Premium Bathroom Vanities",
         
         // About Section
-        about_title: "Crafting Excellence Since 2010",
+        about_title: "Crafting Excellence Since 1999",
         about_subtitle: "Your trusted partner for premium kitchen and cabinetry solutions",
         about_desc1: "With over a decade of experience in the kitchen and cabinetry industry, we specialize in creating bespoke solutions that transform your living spaces into functional works of art.",
         about_desc2: "Our team of skilled craftsmen and designers work closely with each client to understand their unique vision and deliver results that exceed expectations. From concept to completion, we ensure every detail reflects our commitment to quality and excellence.",
@@ -82,7 +82,7 @@ window.translations = {
         form_success: "Thank you! Your message has been sent successfully. We'll contact you soon.",
         
         // Footer
-        footer_desc: "Transforming homes with premium kitchen and cabinetry solutions since 2010.",
+        footer_desc: "Transforming homes with premium kitchen and cabinetry solutions since 1999.",
         footer_services: "Services",
         footer_contact: "Contact",
         footer_rights: "All rights reserved."
