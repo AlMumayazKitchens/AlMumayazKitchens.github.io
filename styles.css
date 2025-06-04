@@ -856,7 +856,11 @@ section {
 }
 
 [dir="rtl"] .contact-item {
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+[dir="rtl"] .contact-details {
+    text-align: right;
 }
 
 [dir="rtl"] .form-group label {
