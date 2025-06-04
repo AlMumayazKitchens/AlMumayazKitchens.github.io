@@ -51,7 +51,11 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
-            <img src="attached_assets/logo.jpg" alt="Modern Kitchen" class="hero-image">
+            <picture>
+                <source media="(min-width: 768px)" srcset="attached_assets/logo.jpg">
+                <source media="(max-width: 767px)" srcset="attached_assets/logo.png">
+                <img src="attached_assets/logo.png" alt="Modern Kitchen" class="hero-image">
+            </picture>
         </div>
         <div class="hero-content">
             <div class="container">
