@@ -9,6 +9,10 @@ window.translations = {
         nav_services: "Services",
         nav_contact: "Contact",
         
+        // Phone Labels
+        mobile_label: "Mobile",
+        landline_label: "Landline",
+        
         // Hero Section
         hero_title: "Transform Your Kitchen Dreams Into Reality",
         hero_subtitle: "Premium kitchen cabinets, countertops, and custom cabinetry solutions crafted with excellence and precision.",
@@ -93,6 +97,10 @@ window.translations = {
         nav_services: "خدماتنا",
         nav_contact: "اتصل بنا",
         
+        // Phone Labels
+        mobile_label: "جوال متحرك",
+        landline_label: "هاتف ارضي",
+        
         // Hero Section
         hero_title: "حول أحلام مطبخك إلى حقيقة",
         hero_subtitle: "خزائن مطابخ فاخرة وأسطح عمل وحلول خزائن مخصصة مصنوعة بتميز ودقة.",
@@ -113,7 +121,7 @@ window.translations = {
         gallery_bathroom_vanity: "خزائن حمام فاخرة",
         
         // About Section
-        about_title: "نصنع التميز منذ 2010",
+        about_title: "نصنع التميز منذ 1999",
         about_subtitle: "شريكك الموثوق لحلول المطابخ والخزائن الفاخرة",
         about_desc1: "مع أكثر من عقد من الخبرة في صناعة المطابخ والخزائن، نتخصص في إنشاء حلول مصممة خصيصاً تحول مساحات معيشتك إلى أعمال فنية وظيفية.",
         about_desc2: "يعمل فريقنا من الحرفيين المهرة والمصممين عن كثب مع كل عميل لفهم رؤيتهم الفريدة وتقديم نتائج تفوق التوقعات. من المفهوم إلى الإنجاز، نضمن أن كل تفصيلة تعكس التزامنا بالجودة والتميز.",
@@ -144,7 +152,7 @@ window.translations = {
         contact_phone_title: "الهاتف",
         contact_email_title: "البريد الإلكتروني",
         contact_hours_title: "ساعات العمل",
-        contact_hours: "جميع أيام الأسبوع: 9ص-1م | 5م-9م",
+        contact_hours: "من السبت الى الخميس : 9ص-1م | 5م-9م",
         
         // Contact Form
         form_name: "اسمك",
@@ -162,7 +170,7 @@ window.translations = {
         form_success: "شكراً لك! تم إرسال رسالتك بنجاح. سنتواصل معك قريباً.",
         
         // Footer
-        footer_desc: "نحول المنازل بحلول المطابخ والخزائن الفاخرة منذ 2010.",
+        footer_desc: "نحول المنازل بحلول المطابخ والخزائن الفاخرة منذ 1999.",
         footer_services: "الخدمات",
         footer_contact: "اتصل بنا",
         footer_rights: "جميع الحقوق محفوظة."
