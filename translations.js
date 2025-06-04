@@ -64,7 +64,7 @@ window.translations = {
         contact_phone_title: "Phone",
         contact_email_title: "Email",
         contact_hours_title: "Business Hours",
-        contact_hours: "All Week: 9AM-1PM | 5PM-9PM",
+        contact_hours: "Saturday-Thursday: 9AM-1PM | 5PM-9PM",
         
         // Contact Form
         form_name: "Your Name",
