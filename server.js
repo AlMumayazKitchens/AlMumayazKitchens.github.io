@@ -33,8 +33,8 @@ app.post('/send-email', async (req, res) => {
 
         // Email content
         const msg = {
-            to: 'almumayazkitchens@outlook.com',
-            from: 'almumayazkitchens@outlook.com', // Use the same email as verified sender
+            to: 'contact@almumayazkitchens.com',
+            from: 'contact@almumayazkitchens.com', // Use the same email as verified sender
             subject: `New Contact Form Submission from ${name}`,
             html: `
                 <h2>New Contact Form Submission</h2>
