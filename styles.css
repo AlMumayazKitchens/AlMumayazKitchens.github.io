@@ -582,18 +582,18 @@ section {
 
 .contact-details {
     flex: 1;
+    min-width: 0;
 }
 
 .contact-details h4 {
     color: hsl(var(--primary));
     margin-bottom: var(--spacing-xs);
-    font-size: 1.2rem;
 }
 
 .contact-details p {
-    color: hsl(var(--text-secondary));
-    margin: 0;
-    line-height: 1.6;
+    margin-bottom: var(--spacing-xs);
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Form Styles */
