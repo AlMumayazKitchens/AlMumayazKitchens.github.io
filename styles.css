@@ -942,3 +942,72 @@ a:focus {
     outline: 2px solid hsl(var(--primary));
     outline-offset: 2px;
 }
+
+/* Social Media Links Styles *//* === START: Replace your existing social media styles with this block === */
+
+/* Keyframes for the sliding background effect */
+@keyframes slide-bg {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* Social Media Links Styles */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    /* Corrected: Using defined variables from :root */
+    color: hsl(var(--text-secondary));
+    background-color: hsl(var(--background));
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Base hover effect for all social links */
+.social-link:hover {
+    transform: translateX(5px);
+    /* Removed generic color change to avoid conflicts */
+}
+
+.social-link i {
+    font-size: 1.2em;
+    width: 24px;
+    text-align: center;
+}
+
+.social-link span {
+    font-size: 0.95em;
+}
+
+/* Instagram hover effect with animation */
+.social-link[href*="instagram"]:hover {
+    /* Using a seamless gradient for smooth animation */
+    background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #bc1888, #f09433);
+    background-size: 200% auto;
+    color: white; /* Ensures text and icon are visible */
+    animation: slide-bg 4s linear infinite; /* Applying consistent animation */
+}
+
+/* WhatsApp hover effect with animation */
+.social-links .social-link[href*="wa.me"]:hover {
+    background: linear-gradient(90deg, #25D366, #128C7E, #25D366, #128C7E, #25D366);
+    background-size: 200% auto;
+    color: white;
+    border-color: transparent;
+    animation: slide-bg 4s linear infinite;
+}
+
+/* === END: Replacement block === */

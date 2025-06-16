@@ -66,6 +66,11 @@ window.translations = {
         contact_hours_title: "Business Hours",
         contact_hours: "Saturday-Thursday: 9AM-1PM | 5PM-9PM",
         
+        // Social Media
+        contact_social_title: "Social Media",
+        social_instagram: "Follow us on Instagram",
+        social_whatsapp: "Chat on WhatsApp",
+        
         // Contact Form
         form_name: "Your Name",
         form_email: "Email Address",
@@ -153,6 +158,11 @@ window.translations = {
         contact_email_title: "البريد الإلكتروني",
         contact_hours_title: "ساعات العمل",
         contact_hours: "من السبت الى الخميس : 9ص-1م | 5م-9م",
+        
+        // Social Media
+        contact_social_title: "وسائل التواصل الاجتماعي",
+        social_instagram: "تابعنا على انستغرام",
+        social_whatsapp: "تواصل معنا على واتساب",
         
         // Contact Form
         form_name: "اسمك",
